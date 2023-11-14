@@ -93,7 +93,7 @@ document.getElementById('pentagon-calculate-btn').addEventListener('click', func
 
 
 //Ellipse Button Event...
-document.getElementById('ellipse-calculate-btn').addEventListener('click', function(){
+document.getElementById('ellipes-calculate-btn').addEventListener('click', function(){
 
     // Call to for Pera Value
     const areaValue = getElementInputValueById('ellipse-area');
@@ -107,6 +107,51 @@ document.getElementById('ellipse-calculate-btn').addEventListener('click', funct
 
 
     
+})
+
+// Converter Centemeter to Meter 
+
+            //For Triangle 
+document.getElementById('triangle-cm-m').addEventListener('click', function(){
+    const triangleResult = getElementTextValueById('triangle-result');
+
+    inlineAndNone('triangle-m-none', 'triangle-cm-inline');
+
+})
+            //For Rectangle 
+document.getElementById('rectangle-cm-m').addEventListener('click', function(){
+    const rectangleResult = getElementTextValueById('rectangle-result');
+
+    inlineAndNone('rectangle-m-none', 'rectangle-cm-inline');
+
+})
+            //For Paralelogram 
+document.getElementById('parallelogram-cm-m').addEventListener('click', function(){
+    const parallelogramResult = getElementTextValueById('parallelogram-result');
+
+    inlineAndNone('parallelogram-m-none', 'parallelogram-cm-inline');
+
+})
+            //For Rhombus 
+document.getElementById('rhombus-cm-m').addEventListener('click', function(){
+    const rhombusResult = getElementTextValueById('rhombus-result');
+
+    inlineAndNone('rhombus-m-none', 'rhombus-cm-inline');
+
+})
+            //For Pentagon 
+document.getElementById('pentagon-cm-m').addEventListener('click', function(){
+    const pentagonResult = getElementTextValueById('pentagon-result');
+
+    inlineAndNone('pentagon-m-none', 'pentagon-cm-inline');
+
+})
+            //For ellipes 
+document.getElementById('ellipse-cm-m').addEventListener('click', function(){
+    const ellipesResult = getElementTextValueById('ellipse-result');
+
+    inlineAndNone('ellipse-m-none', 'ellipse-cm-inline');
+
 })
 
 

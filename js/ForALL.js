@@ -13,6 +13,29 @@ function getElementInputValueById(inputIdName){
     return inputValueNumber;
 }
 
+// <---------- Converter Function ---------->
+function getElementTextValueById(nameOfId){
+    const cmTextResultField = document.getElementById(nameOfId);
+    const cmTextResultString = cmTextResultField.innerText;
+    const cmTextResult = parseFloat(cmTextResultString);
+
+    const newMeterTextValue = (cmTextResult / 100 ).toFixed(3);
+    cmTextResultField.innerText = newMeterTextValue;
+   
+    return cmTextResult;
+    }
+
+
+    //<------------- Inline and None -------->>
+
+    function inlineAndNone(inline, none){
+        const inlineId = document.getElementById(inline);
+        const noneId = document.getElementById(none);
+
+        inlineId.style.display = 'inline';
+        noneId.style.display = 'none';
+
+    }
 
 // <----------- Input check and Provide Alart ---------->
 //For Triagle

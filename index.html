@@ -7,6 +7,27 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <style>
+        #triangle-m-none{
+            display: none;
+        }
+        #rectangle-m-none{
+            display: none;
+        }
+        #parallelogram-m-none{
+            display: none;
+        }
+        #rhombus-m-none{
+            display: none;
+        }
+        #pentagon-m-none{
+            display: none;
+        }
+        #ellipse-m-none{
+            display: none;
+        }
+    </style>
+
 </head>
 <body class="">
 
@@ -97,33 +118,33 @@
 
                         <div class="flex text-sm justify-between  items-center mt-4">
                             <div>1.Triangle</div>
-                            <div><span id="triangle-result">00</span> cm&sup2;</div>
-                            <div><button class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
+                            <div><span id="triangle-result">00</span ><span id="triangle-cm-inline"> cm&sup2;</span><span id="triangle-m-none"> m&sup2;</span></div>
+                            <div><button id="triangle-cm-m" class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
                         </div>
                         <div class="flex text-sm justify-between  items-center mt-4">
                             <div>2.Rectangle</div>
-                            <div><span id="rectangle-result">00</span> cm&sup2;</div>
-                            <div><button class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
+                            <div><span id="rectangle-result">00</span ><span id="rectangle-cm-inline"> cm&sup2;</span><span id="rectangle-m-none"> m&sup2;</span></div>
+                            <div><button id="rectangle-cm-m" class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
                         </div>
                         <div class="flex text-sm justify-between  items-center mt-4">
                             <div>3.Parallelogram</div>
-                            <div><span id="parallelogram-result">00</span> cm&sup2;</div>
-                            <div><button class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
+                            <div><span id="parallelogram-result">00</span ><span id="parallelogram-cm-inline"> cm&sup2;</span><span id="parallelogram-m-none"> m&sup2;</span></div>
+                            <div><button id="parallelogram-cm-m" class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
                         </div>
                         <div class="flex text-sm justify-between  items-center mt-4">
                             <div>4.Rhombus</div>
-                            <div><span id="rhombus-result">00</span> cm&sup2;</div>
-                            <div><button class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
+                            <div><span id="rhombus-result">00</span ><span id="rhombus-cm-inline"> cm&sup2;</span><span id="rhombus-m-none"> m&sup2;</span></div>
+                            <div><button id="rhombus-cm-m" class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
                         </div>
                         <div class="flex text-sm justify-between  items-center mt-4">
                             <div>6.Pentagon</div>
-                            <div><span id="pentagon-result">00</span> cm&sup2;</div>
-                            <div><button class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
+                            <div><span id="pentagon-result">00</span ><span id="pentagon-cm-inline"> cm&sup2;</span><span id="pentagon-m-none"> m&sup2;</span></div>
+                            <div><button id="pentagon-cm-m" class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
                         </div>
                         <div class="flex text-sm justify-between  items-center mt-4">
                             <div>7.Ellipse</div>
-                            <div><span id="ellipse-result">00</span> cm&sup2;</div>
-                            <div><button class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
+                            <div><span id="ellipse-result">00</span ><span id="ellipse-cm-inline"> cm&sup2;</span><span id="ellipse-m-none"> m&sup2;</span></div>
+                            <div><button id="ellipse-cm-m" class="bg-sky-500 border rounded px-2 py-2 text-white">Convert to m&sup2;</button></div>
                         </div>
                         
                     </div>
@@ -176,7 +197,7 @@
                         <input id="ellipse-border" class="w-1/4 rounded border" type="number" placeholder=" b"><span> cm</span>
                     </div>
                     <div class="mt-7 mb-7">
-                        <button id="ellipse-calculate-btn" class="w-4/5 bg-sky-500 rounded-md py-2 text-white font-semibold">Calculate</button>
+                        <button id="ellipes-calculate-btn" class="w-4/5 bg-sky-500 rounded-md py-2 text-white font-semibold">Calculate</button>
                     </div>
                 </div>
                 
