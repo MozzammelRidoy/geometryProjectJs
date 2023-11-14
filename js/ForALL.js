@@ -24,16 +24,7 @@ function validInputCheck(input1, input2){
     }
 
     
-    //Call to result field then set Total Value
-    const triangleResult = document.getElementById('triangle-result');
-    const triangleArea = 0.5 * input1 * input2;
-    triangleResult.innerText = triangleArea.toFixed(2);
-
-
-    //Call to result field then set Total Value
-    const rectangleResult = document.getElementById('rectangle-result');
-    const rectangleArea = input1 * input2;
-    rectangleResult.innerText = rectangleArea.toFixed(2);
-
     
+
+
 }
