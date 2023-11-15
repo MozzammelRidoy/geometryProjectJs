@@ -11,6 +11,8 @@ document.getElementById('triangle-calculate-btn').addEventListener('click', func
     
     //Call triangle Checker
      triangleChecker(baseValue, hightValue);
+     
+
     
     
     
@@ -116,7 +118,7 @@ document.getElementById('triangle-cm-m').addEventListener('click', function(){
     const triangleResult = getElementTextValueById('triangle-result');
 
     inlineAndNone('triangle-m-none', 'triangle-cm-inline');
-
+    
 })
             //For Rectangle 
 document.getElementById('rectangle-cm-m').addEventListener('click', function(){
@@ -152,6 +154,32 @@ document.getElementById('ellipse-cm-m').addEventListener('click', function(){
 
     inlineAndNone('ellipse-m-none', 'ellipse-cm-inline');
 
+})
+
+//Backgrund color Changing.
+
+document.getElementById('triangle-box-bg').addEventListener('mousemove', function(){
+    backgroundColorChanger('triangle-box-bg');
+})
+
+document.getElementById('rectangle-box-bg').addEventListener('mousemove', function(){
+    backgroundColorChanger('rectangle-box-bg');
+})
+
+document.getElementById('parallelogram-box-bg').addEventListener('mousemove', function(){
+    backgroundColorChanger('parallelogram-box-bg');
+})
+
+document.getElementById('rhombus-box-bg').addEventListener('mousemove', function(){
+    backgroundColorChanger('rhombus-box-bg');
+})
+
+document.getElementById('pentagon-box-bg').addEventListener('mousemove', function(){
+    backgroundColorChanger('pentagon-box-bg');
+})
+
+document.getElementById('ellipse-box-bg').addEventListener('mousemove', function(){
+    backgroundColorChanger('ellipse-box-bg');
 })
 
 
